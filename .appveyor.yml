@@ -1,0 +1,20 @@
+version: '{branch}-{build}'
+
+# Do not build on tags (GitHub only)
+skip_tags: true
+
+image: Visual Studio 2017
+
+environment:
+  REPO_DIR: &REPO_DIR c:\wavpack
+
+# project directory
+clone_folder: *REPO_DIR
+
+clone_depth: 50
+
+build_script:
+  - cd "%REPO_DIR%"
+  - msbuild wavpack.sln /maxcpucount /property:Configuration=Release,Platform=x64
+
+test: off

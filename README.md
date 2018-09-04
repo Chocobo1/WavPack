@@ -25,11 +25,16 @@ Additional references:
 
 ## Build Status
 
-| Branch         | Status                                                                                                            |
-|----------------|-------------------------------------------------------------------------------------------------------------------|
-| `master`       | [![Build Status](https://travis-ci.org/dbry/WavPack.svg?branch=master)](https://travis-ci.org/dbry/WavPack)       |
+| Branch   | Status                                                                |
+|----------|-----------------------------------------------------------------------|
+| `master` | [![TravisCI_badge]][TravisCI_link] [![AppVeyor_badge]][AppVeyor_link] |
 
 Branches [actively built](https://travis-ci.org/dbry/WavPack/branches) by TravisCI.
+
+[TravisCI_badge]: https://travis-ci.org/dbry/WavPack.svg?branch=master
+[TravisCI_link]: https://travis-ci.org/dbry/WavPack
+[AppVeyor_badge]: https://ci.appveyor.com/api/projects/status/github/dbry/WavPack?branch=master&svg=true
+[AppVeyor_link]: https://ci.appveyor.com/project/dbry/WavPack
 
 ---
 
